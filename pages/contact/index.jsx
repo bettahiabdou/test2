@@ -111,6 +111,7 @@ const Contact = () => {
               </button>
             </motion.form>
           </div>
+          <p>&nbsp;</p>
         </div>
         <div className="container mx-auto  text-center xl:text-left sm:flex items-center justify-center">
           <div className="flex flex-col w-full max-w-[700px]">
@@ -121,7 +122,7 @@ const Contact = () => {
                 exit="hidden"
                 className="h2 text-center mb-12"
             >
-              Notre<span style={{color: "#51ADE5"}}>Contact</span>
+              Notre<span style={{color: "#51ADE5"}}> Contact</span>
             </motion.h2>
 
             {/* Your contact form code goes here */}
