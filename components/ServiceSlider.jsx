@@ -17,27 +17,27 @@ const serviceData = [
   {
     Icon: RxCrop,
     title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Création et renforcement de l'identité visuelle de votre marque pour vous démarquer dans votre secteur d'activité.",
   },
   {
     Icon: RxPencil2,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Conception graphique et artistique pour créer des supports visuels attrayants et efficaces.",
   },
   {
     Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Développement",
+    description: " Création et programmation de sites web et d'applications sur mesure pour répondre à vos besoins spécifiques.",
   },
   {
     Icon: RxReader,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Création de contenus de qualité, adaptés à votre public cible, pour communiquer efficacement votre message.",
   },
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Amélioration du référencement pour augmenter la visibilité de votre entreprise en ligne.",
   },
 ];
 

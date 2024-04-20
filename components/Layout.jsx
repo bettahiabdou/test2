@@ -19,16 +19,16 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Itecweb</title>
+        <title>I tec web</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Itecweb est une agence digitale spécialisée dans la création de sites web et le marketing digital. Notre équipe dévouée transforme vos idées en réalités digitales concrètes. Nous proposons des solutions personnalisées pour répondre à vos besoins spécifiques et vous aider à atteindre vos objectifs en ligne. Faites confiance à Itecweb pour propulser votre présence digitale vers de nouveaux sommets."
         />
         <meta
           name="keywords"
-          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
+          content="digital marketing, marketing numérique, branding, marque, design, conception, development, développement, copywriting, rédaction, SEO, référencement, online presence, présence en ligne, website design, conception de site web, social media marketing, marketing sur les réseaux sociaux, PPC advertising, publicité au paiement par clic, content marketing, marketing de contenu, email marketing, marketing par email, online visibility, visibilité en ligne, customer engagement, engagement client, testimonials, témoignages, about us, à propos de nous, services, services, contact us, nous contacter, portfolio, portefeuille"
         />
-        <meta name="author" content="Sanidhya Kumar Verma" />
+        <meta name="author" content="Itecweb" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 

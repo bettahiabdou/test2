@@ -13,21 +13,21 @@ const testimonialData = [
     name: "Anne Smith",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Travailler avec Itecweb a été un véritable atout pour notre entreprise. Leur expertise en marketing digital nous a permis d'atteindre de nouveaux sommets en termes de visibilité en ligne.",
   },
   {
     image: "/t-avt-2.png",
     name: "Jane Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Je suis extrêmement impressionné par le niveau de professionnalisme et de créativité de l'équipe d'Itecweb. De la conception de sites web aux stratégies SEO.",
   },
   {
     image: "/t-avt-3.png",
     name: "Jhon Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Itecweb a transformé notre présence en ligne et a considérablement renforcé la notoriété de notre marque. Leur approche sur mesure et leur souci du détail les distinguent.",
   },
 ];
 

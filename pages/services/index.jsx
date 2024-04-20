@@ -9,10 +9,10 @@ export const serviceData = [];
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
-      <Circles />
-      <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row gap-x-8">
+      <div className="flex items-center overflow-y-scroll sm:h-full sm:bg-primary/30">
+          <Circles/>
+          <div className="container mx-auto">
+              <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0" >
             <motion.h2
@@ -22,7 +22,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My services <span style={{color: "#51ADE5"}}>.</span>
+                Nos services<span style={{color: "#51ADE5"}}>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -30,10 +30,8 @@ const Services = () => {
               animate="show"
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
-            </motion.p>
+            >Découvrez comment nos services de branding, design, développement,
+                rédaction et SEO peuvent transformer votre présence en ligne et propulser votre entreprise vers de nouveaux sommets</motion.p>
           </div>
 
           {/* slider */}
@@ -49,6 +47,7 @@ const Services = () => {
         </div>
       </div>
       <Bulb />
+
     </div>
   );
 };
