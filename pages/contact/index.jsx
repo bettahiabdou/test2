@@ -110,6 +110,10 @@ const Contact = () => {
                 />
               </button>
             </motion.form>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+
+
           </div>
           <p>&nbsp;</p>
         </div>

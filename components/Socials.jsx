@@ -22,7 +22,7 @@ export const socialData = [
   },
   {
     name: "Facebook",
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/itecwebs",
     Icon: RiFacebookLine,
   },
 
