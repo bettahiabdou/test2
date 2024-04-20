@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa9182b-d89c-4a18-8eaa-a0f43eeb3924" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ServiceSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ServiceSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TestimonialSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TestimonialSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Transition.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Transition.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/services/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/testimonials/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/testimonials/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,7 @@
       <workItem from="1713539011191" duration="23000" />
       <workItem from="1713539040870" duration="20000" />
       <workItem from="1713539067881" duration="26000" />
-      <workItem from="1713539239010" duration="16510000" />
+      <workItem from="1713539239010" duration="19358000" />
     </task>
     <servers />
   </component>

@@ -24,8 +24,8 @@ const Contact = () => {
   };
 
   return (
-      <div className="sm:h-full sm:bg-primary/30 overflow-y-scroll">
-        <div className="container mx-auto sm:py-32 text-center xl:text-left flex items-center justify-center h-full">
+      <div className="overflow-y-scroll sm:h-full sm:bg-primary/30" style={{maxHeight: "100vh"}}>
+        <div className="container mx-auto sm:py-32 text-center xl:text-left flex items-center justify-center">
           {/* Form */}
           <div className="flex flex-col w-full max-w-[700px]">
             {/* Let's Connect Header */}
@@ -36,7 +36,7 @@ const Contact = () => {
                 exit="hidden"
                 className="h2 text-center mb-12"
             >
-              Connectons<span style={{ color: "#51ADE5" }}>-nous</span>
+              Connectons<span style={{color: "#51ADE5"}}>-nous</span>
             </motion.h2>
 
             {/* Form */}
@@ -101,9 +101,9 @@ const Contact = () => {
                   disabled={isLoading}
                   aria-disabled={isLoading}
               >
-              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let's talk
-              </span>
+          <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
+            Let's talk
+          </span>
                 <BsArrowRight
                     className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
                     aria-hidden
@@ -118,7 +118,7 @@ const Contact = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.067772781687!2d-73.9868915850706!3d40.758711879328465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259dfd5b33b0d%3A0x67e1112e7ab0cb16!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1634925821596!5m2!1sen!2sus"
             width="600"
             height="450"
-            style={{ border: 0 }}
+            style={{border: 0}}
             allowFullScreen=""
             loading="lazy"
             className="mx-auto"

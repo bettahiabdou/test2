@@ -76,7 +76,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-      <div className="sm:bg-primary/30 py-32 text-center xl:text-left ">
+      <div className="overflow-y-scroll sm:h-full sm:bg-primary/30" style={{maxHeight: "100vh"}}>
         <Circles />
 
         {/* avatar img */}
