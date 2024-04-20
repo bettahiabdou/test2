@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
           content="digital marketing, marketing numérique, branding, marque, design, conception, development, développement, copywriting, rédaction, SEO, référencement, online presence, présence en ligne, website design, conception de site web, social media marketing, marketing sur les réseaux sociaux, PPC advertising, publicité au paiement par clic, content marketing, marketing de contenu, email marketing, marketing par email, online visibility, visibilité en ligne, customer engagement, engagement client, testimonials, témoignages, about us, à propos de nous, services, services, contact us, nous contacter, portfolio, portefeuille"
         />
         <meta name="author" content="Itecweb" />
-        <meta name="theme-color" content="#f13024" />
+        <meta name="theme-color" content="#51ADE5" />
       </Head>
 
       <TopLeftImg />

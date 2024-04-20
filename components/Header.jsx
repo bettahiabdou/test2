@@ -22,9 +22,11 @@ const Header = () => {
                     </Link>
 
                     {/* socials */}
-                    <Socials />
+                    <Socials/>
                 </div>
             </div>
+            <meta name="theme-color" content="#ff0000"/>
+
         </header>
     );
 };
