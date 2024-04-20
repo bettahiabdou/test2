@@ -71,6 +71,50 @@ const Services = () => {
                     transformer votre présence en ligne et propulser votre entreprise vers de nouveaux sommets
                 </motion.p>
             </div>
+            <div className="text-center flex flex-col lg:text-left mb-4 xl:mb-0 xl:w-[30vw] xl:hidden"
+                 style={{visibility: "hidden"}}>
+                <motion.h2
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="h2 xl:mt-8"
+                >
+                    Nos services<span style={{color: "#51ADE5"}}>.</span>
+                </motion.h2>
+                <motion.p
+                    variants={fadeIn("up", 0.4)}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+                >
+                    Découvrez comment nos services de branding, design, développement, rédaction et SEO peuvent
+                    transformer votre présence en ligne et propulser votre entreprise vers de nouveaux sommets
+                </motion.p>
+            </div>
+            <div className="text-center flex flex-col lg:text-left mb-4 xl:mb-0 xl:w-[30vw] xl:hidden"
+                 style={{visibility: "hidden"}}>
+                <motion.h2
+                    variants={fadeIn("up", 0.2)}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="h2 xl:mt-8"
+                >
+                    Nos services<span style={{color: "#51ADE5"}}>.</span>
+                </motion.h2>
+                <motion.p
+                    variants={fadeIn("up", 0.4)}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+                >
+                    Découvrez comment nos services de branding, design, développement, rédaction et SEO peuvent
+                    transformer votre présence en ligne et propulser votre entreprise vers de nouveaux sommets
+                </motion.p>
+            </div>
             <Bulb/>
             <div className="block xl:hidden h-20"/>
         </div>
