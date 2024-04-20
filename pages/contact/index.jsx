@@ -112,17 +112,37 @@ const Contact = () => {
             </motion.form>
           </div>
         </div>
+        <div className="container mx-auto  text-center xl:text-left sm:flex items-center justify-center">
+          <div className="flex flex-col w-full max-w-[700px]">
+            <motion.h2
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                animate="show"
+                exit="hidden"
+                className="h2 text-center mb-12"
+            >
+              Notre<span style={{color: "#51ADE5"}}>Contact</span>
+            </motion.h2>
+
+            {/* Your contact form code goes here */}
+
+            {/* Address */}
+            <p>N 78 LOTISSEMENT ZITOUNA KM 6 VN,Meknes</p>
+
+            {/* Phone number */}
+            <p>+212 6 60 45 45 57</p>
+
+            {/* Email */}
+            <p>contact@itecweb.net</p>
+            <p>      &nbsp;              </p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </div>
+        </div>
         {/* Google Maps Location */}
-        <iframe
-            title="Google Maps Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.067772781687!2d-73.9868915850706!3d40.758711879328465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259dfd5b33b0d%3A0x67e1112e7ab0cb16!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1634925821596!5m2!1sen!2sus"
-            width="600"
-            height="450"
-            style={{border: 0}}
-            allowFullScreen=""
-            loading="lazy"
-            className="mx-auto"
-        ></iframe>
+
         <div className="text-center flex flex-col lg:text-left mb-4 xl:mb-0 xl:w-[30vw] xl:hidden"
              style={{visibility: "hidden"}}>
           <motion.h2
