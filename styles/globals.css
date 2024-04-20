@@ -48,4 +48,8 @@
   .textarea {
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
+
+  .tint-overlay {
+    background-color: rgba(25, 0, 0, 0.5); /* Red tint with 50% opacity */
+  }
 }
