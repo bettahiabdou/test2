@@ -8,12 +8,15 @@ export const serviceData = [];
 
 const Services = () => {
     return (
-        <div className=" overflow-y-scroll sm:h-full bg-primary/60  sm:flex items-center" style={{maxHeight: "150vh"}}>
+        <div className="overflow-y-scroll sm:h-full bg-primary/30 sm:flex items-center"
+             style={{maxHeight: "100vh", position: "relative"}}>
             <Circles/>
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-x-8 items-start">
                     {/* text */}
-                    <div className="text-center flex flex-col lg:text-left mb-4 xl:mb-0 xl:w-[30vw]">
+                    <div className="text-center flex flex-col lg:text-left mb-4 xl:mb-0 xl:w-[30vw] sm:flex items-center">
+
+
                         <motion.h2
                             variants={fadeIn("up", 0.2)}
                             initial="hidden"
