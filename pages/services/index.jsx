@@ -8,7 +8,7 @@ export const serviceData = [];
 
 const Services = () => {
     return (
-        <div className=" overflow-y-scroll sm:h-full sm:bg-primary/60  sm:flex items-center" style={{maxHeight: "150vh"}}>
+        <div className=" overflow-y-scroll sm:h-full bg-primary/60  sm:flex items-center" style={{maxHeight: "150vh"}}>
             <Circles/>
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-x-8 items-start">
@@ -114,9 +114,12 @@ const Services = () => {
                     </motion.p>
                 </div>
             </div>
+            <p>&nbsp;</p>
+
             <Bulb/>
 
-
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
         </div>
 
     );
